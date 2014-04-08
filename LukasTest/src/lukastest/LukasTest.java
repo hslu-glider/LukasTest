@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package lukastest;
 
 /**
@@ -12,13 +11,19 @@ package lukastest;
  */
 public class LukasTest {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        hallo();
-    }
-    public static void hallo(){
-        System.out.println("Hallo");
-    }
+	/**
+	 * @param args the command line arguments
+	 */
+	public static void main(String[] args) {
+		hallo();
+		bye();
+	}
+
+	public static void hallo() {
+		System.out.println("Hallo");
+	}
+
+	public static void bye() {
+		System.out.println("Bye");
+	}
 }
